@@ -1,9 +1,9 @@
 cask "fjord" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.2.16"
-  sha256 arm:   "c69369a3767716ac414a9d72cc04645c936c2a687d80552aff23ea4415b63182",
-         intel: "ac1311287258dcd2881ed60e742c184b09fc8a12b90c20cf2b05030a09373ece"
+  version "0.2.17"
+  sha256 arm:   "7cfac33283079ca8a0530af850e086b9f06ed13a631ccd8c54ae3cc80aa4d117",
+         intel: "58027945b166e78548f9a0e9b0639c780407f24f934aee6c23ccb83b4ad2900d"
 
   url "https://github.com/jhtjernsmo/fjord/releases/download/v#{version}/Fjord_#{version}_#{arch}.dmg",
       verified: "github.com/jhtjernsmo/fjord/"
