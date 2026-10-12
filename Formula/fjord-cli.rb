@@ -1,7 +1,7 @@
 class FjordCli < Formula
   desc "Command-line tool and MCP server for Fjord, the local-first project manager"
   homepage "https://jhtjernsmo.github.io/fjord/"
-  version "0.2.19"
+  version "0.2.20"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
@@ -9,14 +9,14 @@ class FjordCli < Formula
 
     on_arm do
       url "https://github.com/jhtjernsmo/fjord/releases/download/v#{version}/fjord-cli-aarch64-apple-darwin"
-      sha256 "8d5dde66fbc667ead07e55440efe47b262871c21ced6c7c47274724ea58a680c"
+      sha256 "581d8248708d2486ab2c5494fb0ce40c3117071cd60e84d44a9c3ca5f392b4e1"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/jhtjernsmo/fjord/releases/download/v#{version}/fjord-cli-x86_64-unknown-linux-gnu"
-      sha256 "5da5a4966783e7504d884de61a845869b4ff97a5184663316842479b40891022"
+      sha256 "21aa9fab822f6740e05121cf9b6fbae97b09f59983110d80e2706c4da461bcb6"
     end
   end
 
